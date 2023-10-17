@@ -1,0 +1,78 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply a background color and text color to the entire body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style the header with a background color and centered text */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content container with some spacing and a white background */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headers with a background color and padding */
+section {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the file input and analyze button */
+
+
+label {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+label:hover {
+    background-color: #444;
+}
+
+/* Style the analysis result section */
+#analysis-section {
+    display: none;
+}
+
+#analysis-result {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the footer with a background color and centered text */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
